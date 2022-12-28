@@ -1,0 +1,2 @@
+Invoking command in '/root/kadai2/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/root/kadai2/ros2_ws/install/mypkg:/root/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /root/kadai2/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/root/kadai2/ros2_ws/install/person_msgs
+Invoked command in '/root/kadai2/ros2_ws/build/person_msgs' returned '1': CMAKE_PREFIX_PATH=/root/kadai2/ros2_ws/install/mypkg:/root/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /root/kadai2/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/root/kadai2/ros2_ws/install/person_msgs

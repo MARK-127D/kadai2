@@ -1,0 +1,35 @@
+[0.695s] Invoking command in '/root/kadai2/ros2_ws/src/mypkg': PYTHONPATH=/root/kadai2/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /root/kadai2/ros2_ws/build/mypkg/build install --prefix /root/kadai2/ros2_ws/install/mypkg --record /root/kadai2/ros2_ws/build/mypkg/install.log --single-version-externally-managed
+[0.954s] running egg_info
+[0.954s] creating ../../build/mypkg/mypkg.egg-info
+[0.954s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.955s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.955s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.955s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.955s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.956s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.957s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.958s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.958s] running build
+[0.958s] running build_py
+[0.958s] creating /root/kadai2/ros2_ws/build/mypkg/build
+[0.958s] creating /root/kadai2/ros2_ws/build/mypkg/build/lib
+[0.958s] creating /root/kadai2/ros2_ws/build/mypkg/build/lib/mypkg
+[0.959s] copying mypkg/__init__.py -> /root/kadai2/ros2_ws/build/mypkg/build/lib/mypkg
+[0.959s] running install
+[0.959s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.960s]   warnings.warn(
+[0.960s] running install_lib
+[0.961s] creating /root/kadai2/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.961s] copying /root/kadai2/ros2_ws/build/mypkg/build/lib/mypkg/__init__.py -> /root/kadai2/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.962s] byte-compiling /root/kadai2/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc
+[0.962s] running install_data
+[0.963s] creating /root/kadai2/ros2_ws/install/mypkg/share/ament_index
+[0.963s] creating /root/kadai2/ros2_ws/install/mypkg/share/ament_index/resource_index
+[0.963s] creating /root/kadai2/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[0.963s] copying resource/mypkg -> /root/kadai2/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[0.963s] copying package.xml -> /root/kadai2/ros2_ws/install/mypkg/share/mypkg
+[0.963s] running install_egg_info
+[0.965s] Copying ../../build/mypkg/mypkg.egg-info to /root/kadai2/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.965s] running install_scripts
+[0.987s] writing list of installed files to '/root/kadai2/ros2_ws/build/mypkg/install.log'
+[1.014s] Invoked command in '/root/kadai2/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/root/kadai2/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /root/kadai2/ros2_ws/build/mypkg/build install --prefix /root/kadai2/ros2_ws/install/mypkg --record /root/kadai2/ros2_ws/build/mypkg/install.log --single-version-externally-managed

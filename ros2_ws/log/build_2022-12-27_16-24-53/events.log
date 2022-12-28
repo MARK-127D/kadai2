@@ -1,0 +1,303 @@
+[0.000000] (-) TimerEvent: {}
+[0.001524] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.001606] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.001653] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.016299] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.098684] (-) TimerEvent: {}
+[0.199202] (-) TimerEvent: {}
+[0.299774] (-) TimerEvent: {}
+[0.338512] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.339775] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '/root/kadai2/ros2_ws/src/person_msgs', '-DCMAKE_INSTALL_PREFIX=/root/kadai2/ros2_ws/install/person_msgs'], 'cwd': '/root/kadai2/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root/kadai2/ros2_ws/src/person_msgs/msg'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_PREFIX_PATH', '/root/kadai2/ros2_ws/install:/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'DESKTOP-QDO36G6'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/runtime/win64:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/Masaki/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/kadai2/ros2_ws/install/mypkg:/root/ros2_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/kadai2/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/root/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/kadai2/ros2_ws/install/mypkg/lib/python3.10/site-packages:/root/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/root/kadai2/ros2_ws/install/mypkg:/root/ros2_ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[0.357666] (person_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400031] (-) TimerEvent: {}
+[0.500551] (-) TimerEvent: {}
+[0.516890] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.518738] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.521354] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.600705] (-) TimerEvent: {}
+[0.683513] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700894] (-) TimerEvent: {}
+[0.777168] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/root/kadai2/ros2_ws/build/mypkg/build', 'install', '--prefix', '/root/kadai2/ros2_ws/install/mypkg', '--record', '/root/kadai2/ros2_ws/build/mypkg/install.log', '--single-version-externally-managed'], 'cwd': '/root/kadai2/ros2_ws/src/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/root', 'OLDPWD': '/root/kadai2/ros2_ws/src/person_msgs/msg', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'COLCON_PREFIX_PATH': '/root/kadai2/ros2_ws/install:/root/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'NAME': 'DESKTOP-QDO36G6', 'WSL_INTEROP': '/run/WSL/9_interop', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/runtime/win64:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/Masaki/AppData/Local/Microsoft/WindowsApps:/snap/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/kadai2/ros2_ws/install/mypkg:/root/ros2_ws/install/mypkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/kadai2/ros2_ws/build/mypkg', 'XDG_DATA_DIRS': '/root/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/kadai2/ros2_ws/install/mypkg/lib/python3.10/site-packages:/root/kadai2/ros2_ws/install/mypkg/lib/python3.10/site-packages:/root/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[0.801083] (-) TimerEvent: {}
+[0.901698] (-) TimerEvent: {}
+[1.002241] (-) TimerEvent: {}
+[1.059456] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.060194] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[1.060518] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[1.060784] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[1.061117] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[1.061272] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[1.062892] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.063941] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.064250] (mypkg) StdoutLine: {'line': b'running build\n'}
+[1.064346] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[1.064595] (mypkg) StdoutLine: {'line': b'running install\n'}
+[1.064779] (mypkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.064888] (mypkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.065216] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.066599] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[1.067484] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.069903] (mypkg) StdoutLine: {'line': b"removing '/root/kadai2/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.070164] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /root/kadai2/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info\n'}
+[1.070848] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.076209] (person_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.102402] (-) TimerEvent: {}
+[1.103816] (mypkg) StdoutLine: {'line': b'Installing listener script to /root/kadai2/ros2_ws/install/mypkg/lib/mypkg\n'}
+[1.104291] (mypkg) StdoutLine: {'line': b'Installing talker script to /root/kadai2/ros2_ws/install/mypkg/lib/mypkg\n'}
+[1.104726] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/root/kadai2/ros2_ws/build/mypkg/install.log'\n"}
+[1.137954] (mypkg) CommandEnded: {'returncode': 0}
+[1.156933] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[1.202835] (-) TimerEvent: {}
+[1.303665] (-) TimerEvent: {}
+[1.395607] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.403915] (-) TimerEvent: {}
+[1.504504] (-) TimerEvent: {}
+[1.605067] (-) TimerEvent: {}
+[1.705913] (-) TimerEvent: {}
+[1.735031] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.806348] (-) TimerEvent: {}
+[1.907240] (-) TimerEvent: {}
+[1.986463] (person_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[2.007546] (-) TimerEvent: {}
+[2.019543] (person_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.107929] (-) TimerEvent: {}
+[2.208632] (-) TimerEvent: {}
+[2.309316] (-) TimerEvent: {}
+[2.410179] (-) TimerEvent: {}
+[2.510976] (-) TimerEvent: {}
+[2.611484] (-) TimerEvent: {}
+[2.658885] (person_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[2.659298] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.659398] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.659489] (person_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.680271] (person_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.711739] (-) TimerEvent: {}
+[2.767781] (person_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.811884] (-) TimerEvent: {}
+[2.813732] (person_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.816482] (person_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.820825] (person_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.849763] (person_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.852720] (person_msgs) StdoutLine: {'line': b'-- Build files have been written to: /root/kadai2/ros2_ws/build/person_msgs\n'}
+[2.861496] (person_msgs) CommandEnded: {'returncode': 0}
+[2.862074] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'build'}
+[2.862134] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/kadai2/ros2_ws/build/person_msgs', '--', '-j8', '-l8'], 'cwd': '/root/kadai2/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root/kadai2/ros2_ws/src/person_msgs/msg'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_PREFIX_PATH', '/root/kadai2/ros2_ws/install:/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'DESKTOP-QDO36G6'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/runtime/win64:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/Masaki/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/kadai2/ros2_ws/install/mypkg:/root/ros2_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/kadai2/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/root/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/kadai2/ros2_ws/install/mypkg/lib/python3.10/site-packages:/root/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/root/kadai2/ros2_ws/install/mypkg:/root/ros2_ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[2.894655] (person_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.903427] (person_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.912068] (-) TimerEvent: {}
+[2.912574] (person_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_person_msgs\n'}
+[3.012247] (-) TimerEvent: {}
+[3.112691] (-) TimerEvent: {}
+[3.213117] (-) TimerEvent: {}
+[3.221774] (person_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.222348] (person_msgs) StdoutLine: {'line': b'[  6%] Built target person_msgs__cpp\n'}
+[3.222769] (person_msgs) StdoutLine: {'line': b'creating person_msgs.egg-info\n'}
+[3.223071] (person_msgs) StdoutLine: {'line': b'writing person_msgs.egg-info/PKG-INFO\n'}
+[3.223291] (person_msgs) StdoutLine: {'line': b'writing dependency_links to person_msgs.egg-info/dependency_links.txt\n'}
+[3.223391] (person_msgs) StdoutLine: {'line': b'writing top-level names to person_msgs.egg-info/top_level.txt\n'}
+[3.223692] (person_msgs) StdoutLine: {'line': b"writing manifest file 'person_msgs.egg-info/SOURCES.txt'\n"}
+[3.225835] (person_msgs) StdoutLine: {'line': b"reading manifest file 'person_msgs.egg-info/SOURCES.txt'\n"}
+[3.226631] (person_msgs) StdoutLine: {'line': b"writing manifest file 'person_msgs.egg-info/SOURCES.txt'\n"}
+[3.232564] (person_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.232994] (person_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.233458] (person_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.243454] (person_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_c.dir/rosidl_generator_c/person_msgs/msg/detail/person__functions.c.o\x1b[0m\n'}
+[3.266840] (person_msgs) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_person_msgs_egg\n'}
+[3.313335] (-) TimerEvent: {}
+[3.352002] (person_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libperson_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.413497] (-) TimerEvent: {}
+[3.453647] (person_msgs) StdoutLine: {'line': b'[ 22%] Built target person_msgs__rosidl_generator_c\n'}
+[3.464300] (person_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.465038] (person_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.466266] (person_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.513815] (-) TimerEvent: {}
+[3.537188] (person_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/person_msgs/msg/detail/person__type_support.cpp.o\x1b[0m\n'}
+[3.540109] (person_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp.o\x1b[0m\n'}
+[3.575413] (person_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/person_msgs/msg/detail/dds_fastrtps/person__type_support.cpp.o\x1b[0m\n'}
+[3.613993] (-) TimerEvent: {}
+[3.714519] (-) TimerEvent: {}
+[3.773881] (person_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/person_msgs/msg/person__type_support.cpp.o\x1b[0m\n'}
+[3.795688] (person_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/person_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/person_msgs/msg/detail/person__type_support.c.o\x1b[0m\n'}
+[3.814712] (-) TimerEvent: {}
+[3.815267] (person_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.818065] (person_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/msg/detail/person__type_support_c.cpp.o\x1b[0m\n'}
+[3.845810] (person_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libperson_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.914899] (-) TimerEvent: {}
+[3.932731] (person_msgs) StdoutLine: {'line': b'[ 58%] Built target person_msgs__rosidl_typesupport_c\n'}
+[3.940177] (person_msgs) StdoutLine: {'line': b'[ 58%] Built target person_msgs__rosidl_typesupport_introspection_c\n'}
+[3.976567] (person_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.015116] (-) TimerEvent: {}
+[4.092513] (person_msgs) StdoutLine: {'line': b'[ 61%] Built target person_msgs__rosidl_typesupport_cpp\n'}
+[4.115287] (-) TimerEvent: {}
+[4.126472] (person_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.138244] (person_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.215558] (-) TimerEvent: {}
+[4.241030] (person_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.293851] (person_msgs) StdoutLine: {'line': b'[ 70%] Built target person_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.306978] (person_msgs) StdoutLine: {'line': b'[ 70%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.315706] (-) TimerEvent: {}
+[4.364089] (person_msgs) StdoutLine: {'line': b'[ 70%] Built target person_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.379965] (person_msgs) StdoutLine: {'line': b'[ 70%] Built target person_msgs\n'}
+[4.396336] (person_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.415946] (-) TimerEvent: {}
+[4.516425] (-) TimerEvent: {}
+[4.617001] (-) TimerEvent: {}
+[4.717706] (-) TimerEvent: {}
+[4.815224] (person_msgs) StdoutLine: {'line': b'[ 74%] Built target person_msgs__py\n'}
+[4.817855] (-) TimerEvent: {}
+[4.835195] (person_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o\x1b[0m\n'}
+[4.918082] (-) TimerEvent: {}
+[5.018591] (-) TimerEvent: {}
+[5.038153] (person_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/person_msgs/libperson_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[5.118849] (-) TimerEvent: {}
+[5.171887] (person_msgs) StdoutLine: {'line': b'[ 80%] Built target person_msgs__rosidl_generator_py\n'}
+[5.189050] (person_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/person_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.189770] (person_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.190316] (person_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/person_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.219030] (-) TimerEvent: {}
+[5.281342] (person_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.286117] (person_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.302319] (person_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.319147] (-) TimerEvent: {}
+[5.402793] (person_msgs) StdoutLine: {'line': b'[100%] Built target person_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.410392] (person_msgs) StdoutLine: {'line': b'[100%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.419378] (-) TimerEvent: {}
+[5.422289] (person_msgs) StdoutLine: {'line': b'[100%] Built target person_msgs__rosidl_typesupport_c__pyext\n'}
+[5.433303] (person_msgs) CommandEnded: {'returncode': 0}
+[5.486191] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'install'}
+[5.494528] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/kadai2/ros2_ws/build/person_msgs'], 'cwd': '/root/kadai2/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root/kadai2/ros2_ws/src/person_msgs/msg'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_PREFIX_PATH', '/root/kadai2/ros2_ws/install:/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'DESKTOP-QDO36G6'), ('WSL_INTEROP', '/run/WSL/9_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/runtime/win64:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/Masaki/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/kadai2/ros2_ws/install/mypkg:/root/ros2_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/kadai2/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/root/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/kadai2/ros2_ws/install/mypkg/lib/python3.10/site-packages:/root/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/root/kadai2/ros2_ws/install/mypkg:/root/ros2_ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[5.500719] (person_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.500929] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/ament_index/resource_index/rosidl_interfaces/person_msgs\n'}
+[5.501225] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[5.501507] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[5.501609] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/person.h\n'}
+[5.501669] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.501788] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[5.501969] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__functions.c\n'}
+[5.502094] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.h\n'}
+[5.502158] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__functions.h\n'}
+[5.502276] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__struct.h\n'}
+[5.502329] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.sh\n'}
+[5.502564] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.dsv\n'}
+[5.502615] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_c.so\n'}
+[5.502690] (person_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_c.so" to ""\n'}
+[5.502822] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[5.503008] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[5.503078] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.503201] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[5.503253] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_fastrtps_c.h\n'}
+[5.503361] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.503620] (person_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.503738] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[5.503852] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[5.503915] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.504017] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[5.504217] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.c\n'}
+[5.504278] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_introspection_c.h\n'}
+[5.504433] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.504572] (person_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.504692] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_c.so\n'}
+[5.504889] (person_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_c.so" to ""\n'}
+[5.505264] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[5.505356] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[5.505403] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/person.hpp\n'}
+[5.505575] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[5.505704] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__builder.hpp\n'}
+[5.505935] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__traits.hpp\n'}
+[5.505985] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__struct.hpp\n'}
+[5.506134] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[5.506188] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[5.506233] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.506277] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[5.506321] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/dds_fastrtps\n'}
+[5.506502] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.506597] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.506668] (person_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.506740] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs\n'}
+[5.506973] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg\n'}
+[5.507047] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail\n'}
+[5.507177] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.507243] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.cpp\n'}
+[5.507429] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.507550] (person_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.507598] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_cpp.so\n'}
+[5.507644] (person_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[5.507688] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.sh\n'}
+[5.507803] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.dsv\n'}
+[5.507907] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info\n'}
+[5.508008] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.508118] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.508305] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.508365] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.508498] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs\n'}
+[5.508545] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/libperson_msgs__rosidl_generator_py.so\n'}
+[5.508598] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.508717] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.508836] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.508941] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg\n'}
+[5.509072] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/_person.py\n'}
+[5.509264] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/_person_s.c\n'}
+[5.509314] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/__init__.py\n'}
+[5.509370] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.509458] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.509548] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.509614] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/__init__.py\n'}
+[5.519513] (-) TimerEvent: {}
+[5.544926] (person_msgs) StdoutLine: {'line': b"Listing '/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs'...\n"}
+[5.545231] (person_msgs) StdoutLine: {'line': b"Compiling '/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/__init__.py'...\n"}
+[5.545295] (person_msgs) StdoutLine: {'line': b"Listing '/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg'...\n"}
+[5.545344] (person_msgs) StdoutLine: {'line': b"Compiling '/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/__init__.py'...\n"}
+[5.545394] (person_msgs) StdoutLine: {'line': b"Compiling '/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/_person.py'...\n"}
+[5.550356] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.550774] (person_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.551038] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.551220] (person_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.551516] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.551686] (person_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.551828] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_py.so\n'}
+[5.552078] (person_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_py.so" to ""\n'}
+[5.552240] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.idl\n'}
+[5.552369] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.msg\n'}
+[5.552699] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/ament_index/resource_index/package_run_dependencies/person_msgs\n'}
+[5.552840] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/ament_index/resource_index/parent_prefix_path/person_msgs\n'}
+[5.553419] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.sh\n'}
+[5.553564] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.dsv\n'}
+[5.553668] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/path.sh\n'}
+[5.553795] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/path.dsv\n'}
+[5.554047] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/local_setup.bash\n'}
+[5.554228] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/local_setup.sh\n'}
+[5.554442] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/local_setup.zsh\n'}
+[5.554608] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/local_setup.dsv\n'}
+[5.554767] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/package.dsv\n'}
+[5.554906] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/ament_index/resource_index/packages/person_msgs\n'}
+[5.555122] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cExport.cmake\n'}
+[5.555343] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.555515] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.555737] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.556138] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.556305] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.556472] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.556644] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.556787] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.556927] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.557142] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.557288] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.557671] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.557847] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.558025] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.558207] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.558752] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.559033] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.559102] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.559155] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.559203] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.559254] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.559300] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.559347] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.559391] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig.cmake\n'}
+[5.559436] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig-version.cmake\n'}
+[5.559481] (person_msgs) StdoutLine: {'line': b'-- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/package.xml\n'}
+[5.565070] (person_msgs) CommandEnded: {'returncode': 0}
+[5.619822] (-) TimerEvent: {}
+[5.641313] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 0}
+[5.642606] (-) EventReactorShutdown: {}

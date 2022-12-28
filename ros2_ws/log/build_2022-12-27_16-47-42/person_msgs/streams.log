@@ -1,0 +1,263 @@
+[0.316s] Invoking command in '/root/kadai2/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/kadai2/ros2_ws/install/mypkg:/root/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /root/kadai2/ros2_ws/build/person_msgs -- -j8 -l8
+[0.339s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.477s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.481s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.689s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.971s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.559s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.583s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.608s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.608s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.608s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.619s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.627s] -- Added test 'lint_cmake' to check CMake code style
+[1.628s] -- Added test 'xmllint' to check XML markup files
+[1.629s] -- Configuring done
+[1.657s] -- Generating done
+[1.660s] -- Build files have been written to: /root/kadai2/ros2_ws/build/person_msgs
+[1.685s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.696s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.707s] [  5%] Built target ament_cmake_python_copy_person_msgs
+[1.993s] running egg_info
+[1.993s] writing person_msgs.egg-info/PKG-INFO
+[1.994s] writing dependency_links to person_msgs.egg-info/dependency_links.txt
+[1.994s] writing top-level names to person_msgs.egg-info/top_level.txt
+[1.996s] reading manifest file 'person_msgs.egg-info/SOURCES.txt'
+[1.997s] writing manifest file 'person_msgs.egg-info/SOURCES.txt'
+[2.034s] [  5%] Built target ament_cmake_python_build_person_msgs_egg
+[2.102s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_generator_c[0m
+[2.113s] [ 10%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_c.dir/rosidl_generator_c/person_msgs/srv/detail/query__functions.c.o[0m
+[2.114s] [ 10%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_c.dir/rosidl_generator_c/person_msgs/msg/detail/person__functions.c.o[0m
+[2.144s] [ 10%] Built target person_msgs__cpp
+[2.156s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.156s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.157s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.186s] [ 20%] [32m[1mLinking C shared library libperson_msgs__rosidl_generator_c.so[0m
+[2.283s] [ 20%] Built target person_msgs__rosidl_generator_c
+[2.294s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.294s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.294s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.576s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_cpp[0m
+[2.590s] [ 30%] [32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/msg/person__type_support.cpp.o[0m
+[2.591s] [ 33%] [32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msgs/srv/query__type_support.cpp.o[0m
+[2.665s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.685s] [ 35%] [32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/person_msgs/msg/detail/person__type_support.cpp.o[0m
+[2.685s] [ 38%] [32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/person_msgs/srv/detail/query__type_support.cpp.o[0m
+[2.691s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.716s] [ 41%] [32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/person_msgs/msg/detail/dds_fastrtps/person__type_support.cpp.o[0m
+[2.835s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_c[0m
+[2.849s] [ 43%] [32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/person_msgs/msg/person__type_support.cpp.o[0m
+[2.877s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_introspection_c[0m
+[2.889s] [ 46%] [32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/person_msgs/srv/query__type_support.cpp.o[0m
+[2.891s] [ 48%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/person_msgs/msg/detail/person__type_support.c.o[0m
+[2.930s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.934s] [ 51%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/person_msgs/srv/detail/query__type_support.c.o[0m
+[2.935s] [ 53%] [32m[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_c.so[0m
+[2.950s] [ 56%] [32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/msg/detail/person__type_support_c.cpp.o[0m
+[3.015s] [ 58%] [32m[1mLinking C shared library libperson_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.055s] [ 58%] Built target person_msgs__rosidl_typesupport_c
+[3.071s] [ 61%] [32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msgs/srv/detail/query__type_support_c.cpp.o[0m
+[3.072s] [ 64%] [32mBuilding CXX object CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/person_msgs/srv/detail/dds_fastrtps/query__type_support.cpp.o[0m
+[3.078s] [ 66%] [32m[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_cpp.so[0m
+[3.111s] [ 66%] Built target person_msgs__rosidl_typesupport_introspection_c
+[3.184s] [ 66%] Built target person_msgs__rosidl_typesupport_cpp
+[3.335s] [ 69%] [32m[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.464s] [ 69%] Built target person_msgs__rosidl_typesupport_introspection_cpp
+[3.563s] [ 71%] [32m[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.689s] [ 74%] [32m[1mLinking CXX shared library libperson_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.702s] [ 74%] Built target person_msgs__rosidl_typesupport_fastrtps_c
+[3.837s] [ 74%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp
+[3.874s] [ 74%] Built target person_msgs
+[3.908s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.433s] [ 76%] Built target person_msgs__py
+[4.442s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_generator_py[0m
+[4.453s] [ 82%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o[0m
+[4.453s] [ 82%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o[0m
+[4.547s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/person_msgs/libperson_msgs__rosidl_generator_py.so[0m
+[4.685s] [ 84%] Built target person_msgs__rosidl_generator_py
+[4.694s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_c__pyext[0m
+[4.695s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[4.695s] [35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.707s] [ 87%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.708s] [ 89%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.708s] [ 92%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.795s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.803s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.807s] [100%] [32m[1mLinking C shared library rosidl_generator_py/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.887s] [100%] Built target person_msgs__rosidl_typesupport_introspection_c__pyext
+[4.889s] [100%] Built target person_msgs__rosidl_typesupport_c__pyext
+[4.891s] [100%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.903s] Invoked command in '/root/kadai2/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/kadai2/ros2_ws/install/mypkg:/root/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /root/kadai2/ros2_ws/build/person_msgs -- -j8 -l8
+[5.007s] Invoking command in '/root/kadai2/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/kadai2/ros2_ws/install/mypkg:/root/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /root/kadai2/ros2_ws/build/person_msgs
+[5.014s] -- Install configuration: ""
+[5.014s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/ament_index/resource_index/rosidl_interfaces/person_msgs
+[5.014s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs
+[5.014s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv
+[5.015s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/query.h
+[5.015s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail
+[5.015s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__functions.c
+[5.015s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__type_support.h
+[5.015s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__functions.h
+[5.015s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__struct.h
+[5.015s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg
+[5.016s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/person.h
+[5.016s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.016s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail
+[5.016s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__functions.c
+[5.016s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.h
+[5.016s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__functions.h
+[5.016s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__struct.h
+[5.016s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.sh
+[5.016s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.dsv
+[5.016s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_c.so
+[5.017s] -- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_c.so" to ""
+[5.017s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs
+[5.017s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv
+[5.017s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail
+[5.017s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__rosidl_typesupport_fastrtps_c.h
+[5.017s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg
+[5.017s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.017s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail
+[5.017s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_fastrtps_c.h
+[5.018s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_c.so
+[5.018s] -- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.018s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs
+[5.018s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv
+[5.018s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail
+[5.018s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__type_support.c
+[5.018s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__rosidl_typesupport_introspection_c.h
+[5.018s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg
+[5.019s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.019s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail
+[5.019s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.c
+[5.019s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_introspection_c.h
+[5.019s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_c.so
+[5.019s] -- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.020s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_c.so
+[5.020s] -- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_c.so" to ""
+[5.020s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs
+[5.020s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv
+[5.021s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/query.hpp
+[5.021s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail
+[5.021s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__builder.hpp
+[5.021s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__struct.hpp
+[5.021s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__traits.hpp
+[5.021s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg
+[5.022s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/person.hpp
+[5.022s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail
+[5.022s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__builder.hpp
+[5.022s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__traits.hpp
+[5.022s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__struct.hpp
+[5.022s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs
+[5.022s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv
+[5.022s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail
+[5.022s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail/dds_fastrtps
+[5.023s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__rosidl_typesupport_fastrtps_cpp.hpp
+[5.023s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg
+[5.023s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.023s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail
+[5.023s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/dds_fastrtps
+[5.023s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_fastrtps_cpp.hpp
+[5.023s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.024s] -- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.024s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs
+[5.024s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv
+[5.024s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail
+[5.024s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__type_support.cpp
+[5.024s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__rosidl_typesupport_introspection_cpp.hpp
+[5.024s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg
+[5.024s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail
+[5.025s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_introspection_cpp.hpp
+[5.025s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.cpp
+[5.025s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_cpp.so
+[5.025s] -- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.025s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_cpp.so
+[5.025s] -- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_cpp.so" to ""
+[5.025s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.sh
+[5.025s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.dsv
+[5.025s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info
+[5.025s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[5.025s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[5.026s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/srv
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/srv/_query_s.c
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/srv/_query.py
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/srv/__init__.py
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/libperson_msgs__rosidl_generator_py.so
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_c.c
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.026s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/_person.py
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/_person_s.c
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/__init__.py
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.026s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/__init__.py
+[5.060s] Listing '/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs'...
+[5.060s] Compiling '/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/__init__.py'...
+[5.060s] Listing '/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg'...
+[5.060s] Compiling '/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/__init__.py'...
+[5.060s] Compiling '/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/msg/_person.py'...
+[5.060s] Listing '/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/srv'...
+[5.060s] Compiling '/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/srv/__init__.py'...
+[5.060s] Compiling '/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/srv/_query.py'...
+[5.066s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.066s] -- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.066s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.067s] -- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.067s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.067s] -- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.067s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_py.so
+[5.068s] -- Set runtime path of "/root/kadai2/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_py.so" to ""
+[5.068s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.idl
+[5.068s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/srv/Query.idl
+[5.068s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.msg
+[5.068s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/srv/Query.srv
+[5.069s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/srv/Query_Request.msg
+[5.069s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/srv/Query_Response.msg
+[5.069s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/ament_index/resource_index/package_run_dependencies/person_msgs
+[5.069s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/ament_index/resource_index/parent_prefix_path/person_msgs
+[5.069s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.sh
+[5.070s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.dsv
+[5.070s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/path.sh
+[5.070s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/environment/path.dsv
+[5.070s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/local_setup.bash
+[5.070s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/local_setup.sh
+[5.070s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/local_setup.zsh
+[5.071s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/local_setup.dsv
+[5.071s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/package.dsv
+[5.071s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/ament_index/resource_index/packages/person_msgs
+[5.071s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cExport.cmake
+[5.071s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.071s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.071s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.072s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.072s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.072s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cExport.cmake
+[5.072s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.072s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cppExport.cmake
+[5.072s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.072s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.073s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.073s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.073s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cppExport.cmake
+[5.073s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.073s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_pyExport.cmake
+[5.073s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.073s] -- Installing: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake-extras.cmake
+[5.073s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.073s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.073s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.073s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.073s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.073s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.073s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig.cmake
+[5.073s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig-version.cmake
+[5.074s] -- Up-to-date: /root/kadai2/ros2_ws/install/person_msgs/share/person_msgs/package.xml
+[5.078s] Invoked command in '/root/kadai2/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/kadai2/ros2_ws/install/mypkg:/root/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /root/kadai2/ros2_ws/build/person_msgs
